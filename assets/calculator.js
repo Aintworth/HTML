@@ -55,8 +55,17 @@ function performCalculation(){
     else {
         result = parseInt(calculator.firstNumber) - parseInt(calculator.displayNumber);
     };
+    const history = {
+        firstNumber : calculator.firstNumber,
+        operator : calculator.operator,
+        secondNumber : calculator.displayNumber,
+        result : result,
+    }
     calculator.displayNumber = result;
+    putHistory(history);
+    renderHistory();
     nextOperation();
+    
 }
 const buttons = document.querySelectorAll(".button");
 for (let button of buttons){

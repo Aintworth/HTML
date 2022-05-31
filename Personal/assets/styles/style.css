@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Quicksand:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Rajdhani&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Quicksand';
+    margin: 0;
+    padding: 0;
+    background-color: #3d5049;
+    color: #ffffff;
+}
+main{
+    overflow: auto;
+}
+
+h2, h3 {
+    color: #ffffff;
+}
+footer {
+    padding: 20px;
+    color: white;
+    background-color: #00a2c6;
+    text-align: center;
+    font-weight: bold;
+}
+nav{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav a {
+    padding: 0.4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 10px;
+    font-size: 23px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+nav a:hover {
+    background-color:#ffffff1e;
+    font-weight: bold;
+}
+#content{
+    padding-top: 3rem;
+}
+.profile header {
+    text-align: center;
+}
+.featured-image {
+    flex-basis: 25%;
+    width: 100%;
+    height: auto;
+    object-fit:scale-down;
+    object-position: center;
+
+}
+.profile img {
+    display: flex;
+    width: 200px;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    max-width: 95%;
+    margin: 0  auto;
+    padding-bottom: 30px;
+}
+.card {
+    flex-basis: 75%;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 20px;
+}
+li{
+    padding: 0.5rem;
+}
+.jumbotron {
+    font-family: 'Rajdhani', sans-serif;
+    letter-spacing: 2px;
+    background-image: url(../image/pexels-pixabay-158385\(1\).jpg);
+    height: 100vh;
+    width: 100vw;
+    background-size: auto;
+    background-position-x: center;
+    background-position-y: 42%;
+    font-size: 25px;
+    padding: 30px;
+    background-color: #1c2522;
+    color: rgb(221, 221, 221);
+    text-align: center;
+}
+.jumbotron p{
+    background-color: #262e2b4d;
+}
+.title{
+    padding-top: 100px;
+    font-size:6.5rem;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    color: #1c2522;
+    text-shadow: 3px 3px 0px rgb(255, 255, 255);
+    
+}
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+nav {
+    background-color: #262e2b;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+}
+main {
+    padding: 20px;
+}
+.fixed {
+    position: fixed;
+}
+
+aside{
+    width: 25%;
+    padding-left: 20px;    
+}
+aside figure{
+    margin: 0;
+    text-align: center;
+}
+@media screen and (max-width: 1000px) {
+    #content,aside{
+        width: 100%;
+        padding: 0;
+    }
+    .flex-container{
+        flex-direction: column;
+    }
+    .card {
+        padding: 0px;
+    }
+    .featured-image {
+        max-width:30rem;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        object-fit:scale-down;
+        align-content: center;
+    
+    }
+
+}
+
+header{
+    position: inline;
+}
