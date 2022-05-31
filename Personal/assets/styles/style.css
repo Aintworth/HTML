@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body {
-    font-family: 'Quicksand';
+    font-family: 'Rajdhani';
     margin: 0;
     padding: 0;
     background-color: #3d5049;
@@ -43,6 +43,9 @@ nav a:hover {
 }
 #content{
     padding-top: 3rem;
+}
+#content p{
+    font-size: 1.5rem;
 }
 .profile header {
     text-align: center;
@@ -105,13 +108,14 @@ th{
 }
 li{
     padding: 0.5rem;
+    font-size: 1.5rem;
 }
 .jumbotron {
     font-family: 'Rajdhani', sans-serif;
     letter-spacing: 2px;
     background-image: url(../image/pexels-pixabay-158385\(1\).jpg);
-    height: 100%;
-    width: 100%;
+    height:99vh;
+    width: 99vw;
     background-size: auto;
     font-size: 25px;
     padding: 30px;

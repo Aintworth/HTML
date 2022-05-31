@@ -13,6 +13,7 @@ function reOrder(size) {
         return;
     }
 }
+
 const article = document.querySelector("#switch article")
 var size = window.matchMedia("(max-width: 1080px)")
 reOrder(size)
